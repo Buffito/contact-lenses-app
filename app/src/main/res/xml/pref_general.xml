@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/limitCategoryTitle">
+        <CheckBoxPreference
+            android:id="@+id/notification"
+            android:defaultValue="false"
+            android:key="notification"
+            android:summary="@string/limitCheckSummary"
+            android:title="@string/limitCheckTitle" />
+
+        <EditTextPreference
+            android:id="@+id/limit"
+            android:digits="0123456789"
+            android:inputType="numberSigned"
+            android:key="limit"
+            android:numeric="integer"
+            android:summary="@string/limitEditSummary"
+            android:title="@string/limitEditTitle" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/langCategoryTitle">
+        <ListPreference
+            android:id="@+id/lang"
+            android:entries="@array/languages"
+            android:entryValues="@array/languages"
+            android:key="lang"
+            android:summary="@string/langListSummary"
+            android:title="@string/langListTitle" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

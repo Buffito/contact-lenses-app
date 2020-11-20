@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Φακοί Επαφής</string>
+    <string name="resetButton">Καθαρισμός</string>
+    <string name="dateView">Ημερομηνία Τελευταίας Χρήσης</string>
+    <string name="numberView">Αριθμός Χρήσεων</string>
+    <string name="title_activity_settings">Ρυθμίσεις</string>
+    <string name="limitCategoryTitle">Όριο χρήσεων</string>
+    <string name="langCategoryTitle">Γλώσσα</string>
+    <string name="limitCheckSummary">Ειδοποίηση όταν πρόκειται να φτάσετε στο όριο</string>
+    <string name="limitCheckTitle">Ειδοποίηση ορίου</string>
+    <string name="limitEditSummary">Ορισμός του ορίου</string>
+    <string name="limitEditTitle">Όριο χρήσεων</string>
+    <string name="langListTitle">Γλώσσα</string>
+    <string name="langListSummary">Επιλογή γλώσσας</string>
+    <string name="limitNotification">" χρήσεις ακόμη!"</string>
+    <string name="error">Ουπς, κάτι πήγε στραβά :(</string>
+    <string name="reset">Επιτυχής καθαρισμός!</string>
+    <string name="addButton">Προσθήκη</string>
+</resources>
